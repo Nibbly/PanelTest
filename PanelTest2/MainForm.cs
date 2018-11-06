@@ -12,12 +12,14 @@ namespace PanelTest2
 {
     public partial class MainForm : Form
     {
+        bool _isFullscreeen = false;
+
         public MainForm()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void MainForm_Load(object sender, EventArgs e)
         {
 
         }
@@ -25,6 +27,41 @@ namespace PanelTest2
         private void closeAppButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void closeAppButton_MouseHover(object sender, EventArgs e)
+        {
+            this.closeAppButton.BackColor = Color.Red;
+        }
+
+        private void closeAppButton_MouseLeave(object sender, EventArgs e)
+        {
+            this.closeAppButton.BackColor = Color.Transparent;
+        }
+
+        private void TitleLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void restoreWindowButton_Click(object sender, EventArgs e)
+        {
+            if (!_isFullscreeen)
+            {
+                this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+                this.WindowState = FormWindowState.Maximized;
+                _isFullscreeen = true;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+                _isFullscreeen = false;
+            }
+        }
+
+        private void hideWindowButton_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

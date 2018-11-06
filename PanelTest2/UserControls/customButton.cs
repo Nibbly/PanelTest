@@ -28,5 +28,15 @@ namespace PanelTest2.UserControls
             get { return actionNameButton.Text; }
             set { actionNameButton.Text = value; }
         }
+
+        private void actionImage_Click(object sender, EventArgs e)
+        {
+            actionNameButton_Click(sender, e);
+        }
+
+        private void actionNameButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

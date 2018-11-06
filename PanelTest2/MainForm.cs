@@ -63,5 +63,10 @@ namespace PanelTest2
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void newFileButton_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

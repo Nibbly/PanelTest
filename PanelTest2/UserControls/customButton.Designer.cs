@@ -39,6 +39,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
             this.panel1.Controls.Add(this.actionImage);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -48,6 +49,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
             this.panel2.Controls.Add(this.actionNameButton);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(49, 0);
@@ -67,13 +69,15 @@
             this.actionNameButton.TabIndex = 2;
             this.actionNameButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.actionNameButton.UseVisualStyleBackColor = true;
+            this.actionNameButton.Click += new System.EventHandler(this.actionNameButton_Click);
             // 
             // actionImage
             // 
-            this.actionImage.Dock = System.Windows.Forms.DockStyle.Right;
-            this.actionImage.Location = new System.Drawing.Point(10, 0);
+            this.actionImage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.actionImage.Location = new System.Drawing.Point(0, 0);
             this.actionImage.Name = "actionImage";
-            this.actionImage.Size = new System.Drawing.Size(39, 40);
+            this.actionImage.Size = new System.Drawing.Size(49, 40);
+            this.actionImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.actionImage.TabIndex = 0;
             this.actionImage.TabStop = false;
             // 
@@ -85,7 +89,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CustomButton";
             this.Size = new System.Drawing.Size(190, 40);
             this.panel1.ResumeLayout(false);
@@ -98,8 +102,8 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox actionImage;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button actionNameButton;
+        private System.Windows.Forms.PictureBox actionImage;
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\Fabian\Desktop\Coding Projects\PanelTest2\PanelTest2\bin\Debug\PanelTest2.exe.config
+C:\Users\Fabian\Desktop\Coding Projects\PanelTest2\PanelTest2\bin\Debug\PanelTest2.exe
+C:\Users\Fabian\Desktop\Coding Projects\PanelTest2\PanelTest2\bin\Debug\PanelTest2.pdb
+C:\Users\Fabian\Desktop\Coding Projects\PanelTest2\PanelTest2\obj\Debug\PanelTest2.csprojResolveAssemblyReference.cache
+C:\Users\Fabian\Desktop\Coding Projects\PanelTest2\PanelTest2\obj\Debug\PanelTest2.MainForm.resources
+C:\Users\Fabian\Desktop\Coding Projects\PanelTest2\PanelTest2\obj\Debug\PanelTest2.Properties.Resources.resources
+C:\Users\Fabian\Desktop\Coding Projects\PanelTest2\PanelTest2\obj\Debug\PanelTest2.csproj.GenerateResource.Cache
+C:\Users\Fabian\Desktop\Coding Projects\PanelTest2\PanelTest2\obj\Debug\PanelTest2.exe
+C:\Users\Fabian\Desktop\Coding Projects\PanelTest2\PanelTest2\obj\Debug\PanelTest2.pdb
